@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+                font-family: monospace;
+                color: green;
+            }
+            /* this beats all, hence has the most priority*/
+            .pink-text{
+                color:pink !important;
+            }
+            /* precedence matters here  
+                as blue color is assigned after pink, blue will override it.
+            */
+            .blue-text{
+                color:blue;
+            }
+
+            #orange-text{
+                color:orange;
+            }
+            /* id takes over class declaration.*/
+        </style>
+    </head>
+    <body>
+            <!-- it does not matter here -->
+            <h1 style="color:white;font-family:Arial, Helvetica, sans-serif;" id="orange-text" class="pink-text blue-text">Hello World!</h1>
+            <!-- if it is inline style then matters more than ids and classes together-->
+    </body>
+</html>
