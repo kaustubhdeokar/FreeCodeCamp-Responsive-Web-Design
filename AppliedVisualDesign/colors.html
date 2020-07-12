@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+             /*
+            raspberry:FF007F
+            cyan:00FFFF
+            orange:FF7F00
+            teal:09A7A1
+            */
+            .head{
+                width: 40%;
+                text-align: justify;
+                margin:20px;
+                display: inline-block;
+            }   
+            .color{
+                height: 100px;
+                width: 100px;
+                position:relative;
+            }
+            .green {
+                background-color: hsl(120, 100%, 50%);
+                margin:auto;
+                margin-top:10px;
+                transform:scale(1.2);/* increase by the factor of 1.2*/
+            }
+
+            .cyan {
+                background-color:hsl(180, 100%, 50%);
+                margin:auto;
+                margin-top:10px;
+            }
+
+            .blue {
+                background-color: hsl(240, 100%, 50%);
+                margin:auto;
+                margin-top:10px;
+            }
+            .total{
+                width:90%;
+                height: 400px;
+                margin: 50px auto;
+                background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
+            }
+            div.total:hover{
+                /* transform size by a factor of. 
+                transform:scale(1.2);
+                */
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="head">
+            <div class="inner">
+            Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the hsl() property as an alternative way to pick a color by directly stating these characteristics.<br>
+            <strong>Hue is what people generally think of as 'color'.</strong> If you picture a spectrum of colors starting with red on the left, moving through green in the middle, and blue on right, the hue is where a color fits along this line. In hsl(), hue uses a color wheel concept instead of the spectrum, where the angle of the color on the circle is given as a value between 0 and 360.<br>
+            <strong>Saturation is the amount of gray in a color.</strong> A fully saturated color has no gray in it, and a minimally saturated color is almost completely gray. This is given as a percentage with 100% being fully saturated.<br>
+            <strong>Lightness is the amount of white or black in a color.</strong> A percentage is given ranging from 0% (black) to 100% (white), where 50% is the normal color.
+            </div>
+        </div>
+
+        <div style="text-align: center;" class="head">
+            <div class="color green"></div>
+             hsl(120, 100%, 50%);
+            <div class="color cyan"></div>
+            hsl(180, 100%, 50%)
+            <div class="color blue"></div>
+            hsl(240, 100%, 50%);
+
+        </div>
+
+        <div class="total">
+            <div class="moon">
+                    
+            </div>
+        </div>
+        
+
+
+    </body>
+</html>
