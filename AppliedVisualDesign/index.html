@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h4{
+                text-align:center;
+                background-color:rgba(45, 45, 45, 0.1);
+                padding:10px;
+                font-size:27px;
+                font-weight:100;
+                text-transform:uppercase; /* lowercase,capitalise,initial,inherit,none*/
+            }
+            p{
+                text-align:justify;
+                line-height:25px;
+                /*font-style:italic;   same as italic */
+                /*text-decoration:underline same as underline */
+            }
+            .links{
+                margin-right:20px;
+                text-align:left;
+                color: black;
+                opacity:0.7;
+                position:relative;
+            }
+            .cardContext{
+                padding:10px;
+            }
+            .fullCard{
+                border:1px solid #ccc;
+                padding:4px;
+                border-radius:5px;
+                width:50%;
+                margin:auto;
+                position:absolute;
+                left:50px;
+
+            }
+            #thumbnail{
+                /* box-shadow property takes values for offset-x, offset-y, blur-radius, spread-radius and a color value in that order. The blur-radius and spread-radius values are optional.
+                multiple box shadows separated by a comma.
+                */
+                box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+            a:hover{
+                color:orange;
+            }
+        </style>
+    </head>
+    <body>
+    <div id="thumbnail" class="fullCard">
+        <div class="cardContext">
+            <div class="cardText">
+                <h4><s>Google</s>Alphabet</h4>
+                <hr>
+                <p>
+                <em>
+                Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.
+                </em>
+                </p>
+            </div>
+            <div class="cardLinks">
+                <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">
+                Larry Page
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">
+                Sergey Brin
+                </a>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
