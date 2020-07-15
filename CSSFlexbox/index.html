@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #container{
+                width:100vw;
+                height: 500px;
+                /* this makes it on a single line */
+                display: flex;                
+                /* column */
+                flex-direction:column;
+                /* reverse it */
+                flex-direction:row-reverse;
+
+
+            }
+            /*
+            The order property is used to tell CSS the order of how flex items appear in the flex container. By default, items will appear in the same order they come in the source HTML.
+
+            align-self->same as align-items 
+            works for self as name suggests and overrides align-items
+            */
+
+            #box1{
+                background-color:dodgerblue;
+                height: 50%;
+                width : 50%;
+                
+            }
+            #box2{
+                background-color:orangered;
+                height: 50%;
+                width : 50%;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <div id="container">
+        <div id="box1">     </div>
+        <div id="box2">     </div>
+        <div id="box1">     </div>
+        <div id="box2">     </div>
+        <div id="box1">     </div>
+        <div id="box2">     </div>
+        <div id="box1">     </div>
+
+
+
+        </div>
+    </body>
+
+</html>
