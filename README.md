@@ -6,3 +6,6 @@
    Applied Visual Design<br>
    Applied Accessibility<br>
    Responsive Web Design Principles<br>
+   Introduction to the CSS Flexbox Challenges<br>
+
+
