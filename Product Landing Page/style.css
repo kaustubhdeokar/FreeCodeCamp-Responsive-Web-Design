@@ -1,0 +1,60 @@
+@media (max-width:600px)
+{
+    body{
+    color:lightgreen;
+    }
+}
+h1{
+    text-align: center;
+}
+.border{
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+}
+main{
+    margin-left:10%;
+    width:80%;
+    height: 100%;
+}
+img{
+    position: absolute;
+    margin-left: 0px;
+    margin-top:0px;
+}
+#description{
+    width: 100%;
+    border-color:green;
+    border-width: 4px;
+}
+#header-img{
+    margin-top:30px;
+    width:25%;
+    float:left;
+}
+#info-div{
+    width:75%;
+    float:right;
+}
+#nav-bar{
+    display: flex;
+    background-color: DodgerBlue;
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index: 1;
+
+}
+#nav-bar a:hover{
+    color:brown;
+    display: block;
+
+}
+#article{
+    position:relative;
+    width:auto;
+    height:auto;
+}
+#video{
+    margin-top:50px;
+}
