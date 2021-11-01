@@ -1,0 +1,59 @@
+<html>
+
+    <head>
+
+        <style>
+        .container{
+            width:100%;
+            display: grid;
+            grid-template-columns: 45% 45%;
+        }
+        .inner{
+            margin:4%;
+            justify-self: start; /* horizontally align*/
+            align-self:end; /* vertically align  - even align-items*/
+            justify-items: center;/* for both*/
+        }
+        </style>
+    </head>
+
+
+    <body>
+
+        <div>
+            Using css grid to create multiple columns. 
+        </div>
+
+        <div class="container">
+            <div class="inner">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase
+            </div>
+
+            <div class="inner">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cite
+            </div>
+
+            <div class="inner" style="grid-column:1/3;">
+                <!-- grid column -->
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letrase
+            </div>
+
+            <div class="inner">
+                <img src="grid.png" alt="Grid"><br>
+                To control the number of columns an item will consume, you can use the grid-column property in conjunction with the line numbers you want the item to start and stop at.
+                <br><br>
+                Here's an example: grid-column: 1 / 3;
+            </div>
+
+            <div class="inner">
+
+            </div>
+
+        </div>
+
+        
+
+    </body>
+
+
+</html>

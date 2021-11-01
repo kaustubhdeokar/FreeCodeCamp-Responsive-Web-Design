@@ -1,0 +1,57 @@
+<html>
+    <head>
+    <title>Grid area example</title>
+
+    <style>
+
+    #container{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-gap:5%;
+        grid-template-areas:
+            "header header header"
+            "advert content content"
+            "footer footer footer";
+    }
+    #item{
+        background-color: aqua;        
+    }
+    .footer{
+        grid-area:footer;
+    }
+    .gridareashorthand{
+        grid-area:1/1/1/3;
+    }
+    /*
+    Grid area shorthand. 
+    grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
+    */
+    </style>
+</head>
+<body>
+
+    <div id="container">
+    
+        <div id="item" class="footer">
+            1
+        </div>
+
+        <div id="item" class="gridareashorthand">
+            2
+        </div>
+
+        <div id="item">
+            3
+        </div>
+
+        <div id="item">
+            4
+        </div>
+
+        <div id="item">
+            5
+        </div>
+
+    </div>
+
+</body>

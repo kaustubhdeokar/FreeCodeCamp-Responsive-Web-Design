@@ -24,7 +24,7 @@ Example<br>
 
 <div>
 <br>
-<a href="https://www.freecodecamp.org/learn/responsive-web-design/css-grid/use-grid-column-to-control-spacing">Grid Column</a>
+<img src="grid.png" alt="Grid">
 <br>
 Same concept for grid row
 
@@ -37,3 +37,9 @@ center: aligns the content in the center of the cell,
 
 end: aligns the content at the right of the cell.
 </div>
+
+Grid-template-areas: define different areas on a grid. 
+Grid - area: place grids on those areas. 
+
+Grid-repeat: repeat(3,1fr)
+    
