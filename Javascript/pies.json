@@ -1,13 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Apple",
-    "wholePrice": 19.99,
-    "slicePrice": 4.99,
-    "sliceCalories": 67,
-    "imageUrl": "images/apple.jpg"
-  },
-  {
     "id": 2,
     "name": "Cherry",
     "wholePrice": 19.99,
@@ -40,11 +32,7 @@
     "imageUrl": "images/bosenberry.jpg"
   },
   {
-    "id": 6,
-    "name": "Pecan",
-    "wholePrice": 22.99,
-    "slicePrice": 5.99,
-    "sliceCalories": 67,
-    "imageUrl": "images/pecan.jpg"
+    "id": 44,
+    "name": "asd"
   }
 ]
